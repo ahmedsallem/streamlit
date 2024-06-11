@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title = "Visualization Project" , layout = "centered" , page_icon = ":bar_chart:")
 st.title(":bar_chart: Visualization Project")
 
-files = ["House Price India.csv" , "Breast_Cancer.csv" , "Salary_Data.csv" , "Airbnb_dataset.csv"]
+files = ["House Price India.csv" , "Breast_Cancer.csv" , "Salary_Data.csv" ]
 select_files = st.selectbox("Select file... " , files , index = None)
 
 if select_files:
